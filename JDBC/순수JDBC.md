@@ -235,7 +235,7 @@ public class DBConnectionUtil {
 
 <br>
 
-### 6. 최종 요약 및 주의사항
+### 6. 요약
 
 1. **리소스 정리 필수**: `Connection`, `PreparedStatement` 등의 리소스는 사용 후 반드시 역순으로 `close()` 해야 함. 이를 누락하면 **리소스 누수**가 발생하여 장애의 원인이 될 수 있으므로 `finally` 블록에서 처리해야 함.
 
